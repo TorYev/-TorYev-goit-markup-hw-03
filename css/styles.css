@@ -102,6 +102,12 @@ align-items: center;
 gap: 32px;
 }
 
+.portfol-image-list{
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Header 1 */
 .header-top {
   color: var(--white-background);
   text-align: center;
