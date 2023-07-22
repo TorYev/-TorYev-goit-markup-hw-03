@@ -24,19 +24,26 @@ body {
 
 .page-nav {
   background: var(--white-background);
+  display: flex;
+  align-items: center;
 }
 
 
 .link {
   text-decoration: none;
+  
 }
 
 .list {
+  display: flex;
   list-style: none;
   margin:0;
   padding-left: 0;
+  gap: 40px
 }
-
+.list:last-child{
+  padding: 24px 0
+}
 /* Header */
 
 /* Logo */
@@ -49,6 +56,7 @@ body {
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px
 }
 header{
   padding-top: 25.5px;
@@ -83,13 +91,13 @@ header{
 
 .first-part {
   background-color: var(--dark);
-
+  padding: 188px 0;
 }
 
 /* Team */
 .our-team {
   background-color: var(--light);
-
+  padding: 120px 0;
 }
 
 .team-box {
@@ -127,6 +135,7 @@ gap: 32px;
   line-height: 1.11em;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 /* Header 3 */
@@ -194,6 +203,11 @@ gap: 32px;
   line-height: 24px;
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .orders:hover,
@@ -256,6 +270,7 @@ img{
   margin: 0 auto;
   outline: 2px solid red;
   }
+  
 
   .visually-hidden {
     position: absolute;
@@ -268,6 +283,7 @@ img{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 8px;
     }
 
     li{
@@ -279,4 +295,8 @@ img{
     .section{
       padding-top: 120px;
       padding-bottom: 120px;
+    }
+
+    .header{
+      border-bottom: 1px solid #e7e9fc
     }
