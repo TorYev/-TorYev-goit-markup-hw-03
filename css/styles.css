@@ -32,7 +32,8 @@ body {
 
 .link {
   text-decoration: none;
-  
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .pages.link{
@@ -78,10 +79,7 @@ height: 21px;
 flex-direction: column;
 justify-content: center;
 }
-header{
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
-}
+
 
 .logo-studio {
   font-family: 'Raleway', sans-serif;
@@ -266,6 +264,8 @@ border-radius: 0px 0px 4px 4px;
 
 .ftr-page {
   background: var(--dark);
+  padding: 100px 0;
+
 }
 
 .ftr-page-text {
