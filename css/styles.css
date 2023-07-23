@@ -73,7 +73,7 @@ ul.list.list-portfolio{
   gap: 40px;
 }
 
-.header-list-portfolio{
+.list.header-list-portfolio{
   justify-content: center;
   margin-bottom: 72px;
   flex-wrap: wrap;
