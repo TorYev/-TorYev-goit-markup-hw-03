@@ -61,6 +61,11 @@ li.list-item{
 .header{
   border-bottom: 1px solid #e7e9fc;
 }
+
+.list-portfolio{
+  gap: 40px;
+}
+
 /* Logo */
 
 .logotype {
@@ -72,6 +77,7 @@ li.list-item{
   line-height: 1.17;
   letter-spacing: 0.03em;
   margin-right: 76px;
+  display: inline-block;
 
   display: flex;
 width: 44px;
@@ -265,7 +271,6 @@ border-radius: 0px 0px 4px 4px;
 .ftr-page {
   background: var(--dark);
   padding: 100px 0;
-
 }
 
 .ftr-page-text {
@@ -333,10 +338,6 @@ img{
     .section{
       padding-top: 120px;
       padding-bottom: 120px;
-    }
-
-    .header{
-      border-bottom: 1px solid #e7e9fc;
     }
 
     .team-container{
