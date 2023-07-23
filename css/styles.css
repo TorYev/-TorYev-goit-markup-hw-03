@@ -34,6 +34,9 @@ body {
   
 }
 
+.pages.link{
+  padding: 24px 0;
+}
 .list {
   display: flex;
   list-style: none;
@@ -41,14 +44,21 @@ body {
   padding-left: 0;
   gap: 24px;
 }
-.menu{
-  gap: 40px;
-}
 .list:last-child{
   padding: 24px 0
 }
-/* Header */
+/* Обьедененные селекторы, селектор тега юл и 2 селектора класса т.е. повысили специфичность*/
+ul.list.header-list {
+  gap: 40px;
+}
 
+li.list-item{
+  width: calc((100% - 72px) / 4);
+}
+/* Header */
+.header{
+  border-bottom: 1px solid #e7e9fc;
+}
 /* Logo */
 
 .logotype {
@@ -104,11 +114,14 @@ justify-content: center;
 }
 
 
-.first-part {
+.first-part.section {
   background-color: var(--dark);
   padding: 188px 0;
 }
 
+.second-part.section {
+  padding: 120px 0;
+}
 /* Team */
 .our-team {
   background-color: var(--light);
@@ -167,7 +180,7 @@ gap: 32px;
   font-weight: 500;
   line-height: 1.2em;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 /* Body */
@@ -301,22 +314,16 @@ img{
 
   .visually-hidden {
     position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-    margin-bottom: 8px;
-    }
-
-    li{
-      display: inline-block;
-      flex-direction: row;
-      justify-content: center;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
     }
 
     .section{
