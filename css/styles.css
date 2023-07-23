@@ -57,6 +57,10 @@ ul.list.header-list {
 li.list-item{
   width: calc((100% - 72px) / 4);
 }
+
+li.list-item-portfolio{
+  width: calc((100% - 48px) / 3);
+}
 /* Header */
 .header{
   border-bottom: 1px solid #e7e9fc;
@@ -64,6 +68,13 @@ li.list-item{
 
 .list-portfolio{
   gap: 40px;
+}
+
+.header-list-portfolio{
+  justify-content: center;
+  margin-bottom: 72px;
+  flex-wrap: wrap;
+  row-gap: 48px;
 }
 
 /* Logo */
