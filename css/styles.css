@@ -77,7 +77,8 @@ li.list.list-portfolio{
   justify-content: center;
   margin-bottom: 72px;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 /* Logo */
