@@ -138,12 +138,15 @@ justify-content: center;
 }
 
 .second-part.section {
-
+  padding: 120px 0;
+}
+.third-part.section{
+  padding-bottom: 120px;
 }
 /* Team */
 .our-team {
   background-color: var(--light);
-  padding: 120px 0 0;
+  padding: 120px 0;
   /* border-radius: 0px 0px 4px 4px; */
 }
 
@@ -348,6 +351,9 @@ padding: 0 15px;
   margin: 0 auto;
   }
   
+  .header .container{
+    display: flex;
+  }
 
   .visually-hidden {
     position: absolute;
@@ -363,9 +369,6 @@ padding: 0 15px;
   overflow: hidden;
     }
 
-    .section{
-      padding-top: 120px;
-    }
 
     .team-container{
       padding: 32px 0;
