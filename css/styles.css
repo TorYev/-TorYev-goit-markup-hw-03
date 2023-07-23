@@ -73,10 +73,13 @@ li.list.list-portfolio{
   justify-content: center;
   margin-bottom: 72px;
   flex-wrap: wrap;
-  column-gap: 24px;
+  gap: 24px;
   row-gap: 48px;
 }
 
+.address.link{
+  gap: 40px;
+}
 /* Logo */
 
 .logotype {
