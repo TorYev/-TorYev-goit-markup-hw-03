@@ -70,15 +70,18 @@ li.list.list-portfolio{
 }
 
 .list.header-list-portfolio{
+  display: flex;
   justify-content: center;
-  margin-bottom: 72px;
-  flex-wrap: wrap;
   gap: 24px;
-  row-gap: 48px;
-}
+  margin-bottom: 72px;
 
-.address.link{
-  gap: 40px;
+} 
+
+.list.header-list-portfolio_second{
+  display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px;
 }
 /* Logo */
 
