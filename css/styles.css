@@ -61,6 +61,7 @@ li.list-item{
 
 li.list-item-portfolio{
   width: calc((100% - 48px) / 3);
+  
 }
 /* Header */
 .header{
@@ -77,6 +78,7 @@ ul.list.list-portfolio{
   margin-bottom: 72px;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 /* Logo */
