@@ -69,7 +69,7 @@ li.list-item-portfolio{
   
 }
 
-ul.list.list-portfolio{
+li.list.list-portfolio{
   gap: 40px;
 }
 
@@ -78,7 +78,6 @@ ul.list.list-portfolio{
   margin-bottom: 72px;
   flex-wrap: wrap;
   gap: 24px;
-  row-gap: 48px;
 }
 
 /* Logo */
