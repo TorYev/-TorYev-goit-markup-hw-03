@@ -41,6 +41,9 @@ body {
   padding-left: 0;
   gap: 24px;
 }
+.menu{
+  gap: 40px;
+}
 .list:last-child{
   padding: 24px 0
 }
