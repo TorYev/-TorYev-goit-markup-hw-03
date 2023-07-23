@@ -39,6 +39,7 @@ body {
 .pages.link{
   padding: 24px 0;
 }
+
 .list {
   display: flex;
   list-style: none;
@@ -64,6 +65,7 @@ li.list-item-portfolio{
 /* Header */
 .header{
   border-bottom: 1px solid #e7e9fc;
+  
 }
 
 .list-portfolio{
@@ -136,12 +138,12 @@ justify-content: center;
 }
 
 .second-part.section {
-  padding: 120px 0;
+
 }
 /* Team */
 .our-team {
   background-color: var(--light);
-  padding: 120px 0;
+  padding: 120px 0 0;
   /* border-radius: 0px 0px 4px 4px; */
 }
 
@@ -178,6 +180,7 @@ border-radius: 0px 0px 4px 4px;
   letter-spacing: 0.02em;
   max-width: 496px;
   margin-bottom: 32px;
+  margin: 0 auto 48px;
 }
 
 /* Header 2 */
@@ -268,14 +271,17 @@ border-radius: 0px 0px 4px 4px;
   background-color: var(--primary_brand);
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+
   display: block;
   min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
+  text-align: center;
+  margin: 0 auto
 }
 
 .orders:hover,
@@ -316,6 +322,10 @@ img{
   display: block;
 }
 
+.ftr-container{
+  display: inline-block;
+  margin-bottom: 16px;
+}
 /* h1,h2,h3,h4,h5,h6,p {
 	vertical-align: baseline;
 	font-weight: inherit;
@@ -334,10 +344,8 @@ img{
 .container { 
   width: 100%;
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+padding: 0 15px;
   margin: 0 auto;
-  display: flex;
   }
   
 
@@ -357,7 +365,6 @@ img{
 
     .section{
       padding-top: 120px;
-      padding-bottom: 120px;
     }
 
     .team-container{
