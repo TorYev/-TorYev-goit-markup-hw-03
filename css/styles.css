@@ -113,6 +113,13 @@ gap: 32px;
 .portfol-image-list{
   background: #FFF;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding-top: 96px;
+  padding-bottom: 120px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px
 }
 
 /* Header 1 */
@@ -186,12 +193,17 @@ gap: 32px;
   line-height: 24px;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
   background-color: var(--pressed-state);
   color: var(--white-background);
+  border: 1px solid transparent
 }
 
 .orders {
