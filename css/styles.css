@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #FFFFFF;
+  text-align: center;
 }
 
 :root {
@@ -126,6 +127,7 @@ justify-content: center;
 .our-team {
   background-color: var(--light);
   padding: 120px 0;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-box {
@@ -135,7 +137,7 @@ padding-bottom: 0px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-gap: 32px;
+/* gap: 32px; */
 }
 
 .portfol-image-list{
@@ -181,6 +183,7 @@ gap: 32px;
   line-height: 1.2em;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 /* Body */
@@ -333,4 +336,8 @@ img{
 
     .header{
       border-bottom: 1px solid #e7e9fc;
+    }
+
+    .team-container{
+      padding: 32px 0;
     }
